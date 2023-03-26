@@ -1,0 +1,17 @@
+.board {
+  display: grid;
+  width: 90vmin;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 5vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+
+  border-radius: 2rem;
+  gap: 10px;
+  /* overflow: hidden; */
+}
+
+.wrapper {
+  margin-top: 10vh;
+}

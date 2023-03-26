@@ -1,0 +1,20 @@
+.cell {
+  aspect-ratio: 1/1;
+  border: none;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  background: rgba(255, 255, 255, 0.017);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+}
+
+.cell .content {
+  font-size: 8em;
+  color: #cccccc;
+}
